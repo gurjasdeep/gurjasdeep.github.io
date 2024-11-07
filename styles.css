@@ -1,0 +1,34 @@
+table {
+  margin: 20px auto;
+  border: 1px solid #0088fa;  /* Royal Blue border */
+  border-collapse: collapse;
+  padding-top: 100px;
+  box-shadow:
+    0 4px 10px rgba(0, 136, 250, 0.1),    /* Outer shadow */
+    inset 0 0 15px rgba(0, 136, 250, 0.01); /* Inner shadow */
+
+}
+
+td {
+  border: 1px solid #0088fa;  /* Royal Blue border */
+  padding: 10px;
+  box-shadow: inset 0 0 8px rgba(0, 136, 250, 0.3),  /* Inner shadow for each cell */
+              0 4px 8px rgba(0, 136, 250, 0.01);
+/* Left align all table data */
+}
+
+td[rowspan] {
+  vertical-align: middle;
+
+}
+
+td.tdjdbmain{
+  font-size: 1.5em; /* You can adjust the value to make it bigger or smaller */
+  font-weight: bold;
+  font-family:"Bahnschrift"
+}
+
+td.small{
+  font-size: 0.75em; /* You can adjust the value to make it bigger or smaller */
+  font-family:"Bahnschrift"
+}
